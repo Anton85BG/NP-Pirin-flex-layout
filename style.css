@@ -16,7 +16,7 @@ body {
     position: relative;
 /*     background-attachment: fixed; */
     background: url("images/header2.jpg") fixed no-repeat;
-    background-size: cover;
+    background-size: 100%;
 }
 
 header {
@@ -208,11 +208,11 @@ footer {
     /* display: inline-block; */
         /* flex: 30%; */
     }
-
+/* 
 @media only screen and (max-width:500px) {
 	body {
 	background: url("images/header2.jpg") fixed no-repeat; 
 	background-size: cover;
 	margin: 0 auto;
 	}
-}
+} */
