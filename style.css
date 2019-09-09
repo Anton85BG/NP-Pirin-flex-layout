@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-    background: url("images/header2.jpg") fixed no-repeat;
+    background: url("images/header2.jpg");
     background-size: cover;
     max-width: 80rem;
     margin: 0 auto;
@@ -212,7 +212,7 @@ footer {
 
 @media only screen and (max-width:400px) {
 	body {
-	background: url("images/header2.jpg"); 
+	background: url("images/header2.jpg") fixed; 
 	background-size: cover;
 	margin: 0 auto;
 	}
