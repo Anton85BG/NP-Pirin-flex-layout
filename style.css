@@ -9,18 +9,13 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-html {
-    
-    background: url("images/header2.jpg") no-repeat fixed left top ;
-    background-size: cover;
-}
-
 body {
-    /* max-width: 80rem; */
-    padding: 1rem;
+    max-width: 80rem;
     margin: 1rem auto;
     position: relative;
-   
+    background-attachment: fixed;
+    background: url("images/header2.jpg") fixed no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -31,15 +26,21 @@ header {
     border-radius: 10%;
     margin-bottom: 1rem;
     color: #fff;
+   /* align-items: center; */
+   /* text-align: center; */
 }
 
 .main-container {
     display: flex;
     flex-wrap: wrap;
+    /* margin: 0.5rem auto; */
+    /* padding: 1rem; */
 }
 
 .iframe-container {
     display: flex;
+    /* width: 50%; */
+    /* height: auto; */
     margin: auto;
 }
 
@@ -47,9 +48,9 @@ nav {
     display: flex;
     flex: 25%;
     flex-wrap: wrap; 
-    padding: 0.5rem 0.5rem 1.5rem 0.5rem;
+    padding: 0.5rem;
     margin: 0.5rem;
-    border: 2px solid #3a1;
+    border: 1px solid #3a1;
     border-radius: 5%;
 }
 
@@ -57,56 +58,43 @@ nav ul {
     width: 100%;
     height: auto;
     text-align: center;
-	
-margin-bottom: 1rem;	
+
 }
 
-nav ul a {
+nav a {
     display: block;
     text-decoration: none; 
+    /* width: 100%; */
+    /* height: 100%; */
     padding: 1rem;
-    color: #fff;
+    color: #fff;    
 }
 
 nav li {
     display: block;
     list-style: none;
+    /* padding: 1rem; */
     margin: 0.5rem auto;
     border: 1px solid #3a1;
     border-radius: 10%;
     overflow: hidden;
 }
 
-nav ul a:hover {
+nav a:hover {
     background-color: #11d;
 }
 
-nav section {
-	display: flex;
-	width: 80%;
-	height: auto;
-	margin: auto;
-	
-}
-
-nav section a {
-	width: 100%;
-	height: 100%;
-	 border-radius: 10%;	
-	overflow: hidden;
-	
-}
-
-.nav-image {
-    display: flex;
-    width: 100%;
-    height: 100%;
-	border: 1px solid #000;
+nav > img {
+    border: 2px solid #3a1;
     border-radius: 10%;
+    max-width: 80%;
+    height: 20%;
+    margin: 0 auto;
+    /* margin: auto; */
 }
 
-.nav-image:hover {
-    border: 1px solid #fff;
+nav >img:hover {
+border: 2px solid #fff;
 }
 
 main {
@@ -114,7 +102,8 @@ main {
     flex-wrap: wrap; 
     flex: 51%;
     padding: 0.5rem;
-    border: 2px solid #3a1;
+    /* margin: auto; */
+    border: 1px solid #3a1;
     background: #fff;
 }
 
@@ -132,8 +121,9 @@ aside {
     flex: 21%;
     padding: 0.5rem;
     margin: 0.5rem;
-    border: 2px solid #3a1;
+    border: 1px solid #3a1;
     border-radius: 5%;
+    /* position: relative; */
 }
 
 aside ul {
@@ -143,6 +133,7 @@ aside ul {
 }
 
 aside li {
+    /* text-decoration: none; */
     list-style: none;
     margin: 0.5rem auto;
     border: 1px solid #3a1;
@@ -166,12 +157,16 @@ aside a:hover p {
     color: black;
 }
 
+
+/* ako ne raboti, da se mahne pozishana na aside-buton-image i da se mahne position-relative na bodyto; */
+
 .aside-button-image {
     width: 8%;
     height: auto;
     margin: 1rem auto;
     border: 1px solid #000;
     border-radius: 50%;
+    /* width: 8%; */
     position: fixed;
     top: 2%;
     right: 2%;
@@ -184,6 +179,7 @@ aside a:hover p {
 footer {
     margin-top: 1rem;
     padding: 2rem;
+    /* display: flex; */
     border: 2px solid #3a1;
     border-radius: 10%;
     
@@ -195,4 +191,7 @@ footer {
         max-width: 60%;
         background: #3a1;
         margin: 0 auto;
+    /* margin: 0.2rem auto; */
+    /* display: inline-block; */
+        /* flex: 30%; */
     }
