@@ -80,7 +80,7 @@ nav li {
     overflow: hidden;
 }
 
-nav a:hover {
+nav ul a:hover {
     background-color: #11d;
 }
 
@@ -95,7 +95,6 @@ nav a:hover {
 
 .nav-image:hover {
     border: 2px solid #fff;
-    background-color: none;
 }
 
 main {
