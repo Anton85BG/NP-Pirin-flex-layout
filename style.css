@@ -212,7 +212,7 @@ footer {
 
 @media only screen and (max-width:400px) {
 	body {
-	background: url("images/header2.jpg") fixed no-repeat; 
+	background: url("images/header2.jpg") no-repeat; 
 	background-size: contain;
 	margin: 0 auto;
 	}
