@@ -212,8 +212,8 @@ footer {
 
 @media only screen and (max-width:400px) {
 	body {
-	background: url("images/header2.jpg") no-repeat; 
-	background-size: contain;
+	background: url("images/header2.jpg"); 
+	background-size: cover;
 	margin: 0 auto;
 	}
 }
