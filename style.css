@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 
 html {
     
-    background: url("images/header2.jpg") fixed left top no-repeat;
+    background: url("images/header2.jpg") no-repeat fixed left top ;
     background-size: cover;
 }
 
@@ -196,5 +196,3 @@ footer {
         background: #3a1;
         margin: 0 auto;
     }
-
-
