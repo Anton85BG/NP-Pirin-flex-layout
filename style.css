@@ -84,7 +84,7 @@ nav a:hover {
     background-color: #11d;
 }
 
-nav > img {
+.nav-image {
     border: 2px solid #3a1;
     border-radius: 10%;
     max-width: 80%;
@@ -93,7 +93,7 @@ nav > img {
     /* margin: auto; */
 }
 
-nav >img:hover {
+.nav-image:hover {
 border: 2px solid #fff;
 }
 
