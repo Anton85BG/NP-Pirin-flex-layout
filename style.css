@@ -220,3 +220,15 @@ footer {
                
             }
     }
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) {
+body {
+                background: url("images/header1.jpg") fixed no-repeat;
+                background-size: contain;
+                /* max-width: 80rem; */
+                margin: 0 auto;
+                padding: 0.5rem;
+                position: relative;
+               
+            }
+}
