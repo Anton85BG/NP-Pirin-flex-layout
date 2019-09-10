@@ -10,19 +10,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-    max-width: 80rem;
-    margin: 0 auto;
-    position: relative;
-}
-
-.all {
     background: url("images/header2.jpg") fixed no-repeat;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-width: 80rem;
-    padding: 0.2rem 0.5rem;
+    /* max-width: 80rem; */
+    margin: 0 auto;
+    padding: 0.5rem;
+    position: relative;
+   
 }
 
 header {
@@ -33,15 +27,21 @@ header {
     border-radius: 10%;
     margin-bottom: 1rem;
     color: #fff;
+   /* align-items: center; */
+   /* text-align: center; */
 }
 
 .main-container {
     display: flex;
     flex-wrap: wrap;
+    /* margin: 0.5rem auto; */
+    /* padding: 1rem; */
 }
 
 .iframe-container {
     display: flex;
+    /* width: 50%; */
+    /* height: auto; */
     margin: auto;
 }
 
@@ -66,6 +66,8 @@ nav ul {
 nav ul a {
     display: block;
     text-decoration: none; 
+    /* width: 100%; */
+    /* height: 100%; */
     padding: 1rem;
     color: #fff;    
 }
@@ -73,6 +75,7 @@ nav ul a {
 nav li {
     display: block;
     list-style: none;
+    /* padding: 1rem; */
     margin: 0.5rem auto;
     border: 1px solid #3a1;
     border-radius: 10%;
@@ -136,6 +139,7 @@ aside {
     margin: 0.5rem;
     border: 2px solid #3a1;
     border-radius: 5%;
+    /* position: relative; */
 }
 
 aside ul {
@@ -145,6 +149,7 @@ aside ul {
 }
 
 aside li {
+    /* text-decoration: none; */
     list-style: none;
     margin: 0.5rem auto;
     border: 1px solid #3a1;
@@ -174,6 +179,7 @@ aside a:hover p {
     margin: 1rem auto;
     border: 1px solid #000;
     border-radius: 50%;
+    /* width: 8%; */
     position: fixed;
     top: 2%;
     right: 2%;
@@ -186,6 +192,7 @@ aside a:hover p {
 footer {
     margin-top: 1rem;
     padding: 2rem;
+    /* display: flex; */
     border: 2px solid #3a1;
     border-radius: 10%;
     
@@ -197,4 +204,19 @@ footer {
         max-width: 60%;
         background: #3a1;
         margin: 0 auto;
+    /* margin: 0.2rem auto; */
+    /* display: inline-block; */
+        /* flex: 30%; */
+    }
+
+    @media only screen and (max-width: 600px) {
+        body {
+                background: url("images/header3.jpg") fixed no-repeat;
+                background-size: cover;
+                /* max-width: 80rem; */
+                margin: 0 auto;
+                padding: 0.5rem;
+                position: relative;
+               
+            }
     }
