@@ -209,10 +209,10 @@ footer {
         /* flex: 30%; */
     }
 
-    @media only screen and (max-width: 600px) {
+   @media only screen and (max-width: 600px) {
         body {
-                background: url("images/header3.jpg") fixed no-repeat;
-                background-size: cover;
+                background: url("images/header4.jpg") fixed no-repeat;
+                background-size: contain;
                 /* max-width: 80rem; */
                 margin: 0 auto;
                 padding: 0.5rem;
